@@ -30,13 +30,13 @@ public class Warrior extends Ab_Live implements BasicAttack {
     public static void Basic_Attack(){
         System.out.println("Warrior Begun To Attack");
         try {
-            Thread.sleep(1000);
+            Thread.sleep(500);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
         System.out.println("Warrior Attacked");
         try {
-            Thread.sleep(1000);
+            Thread.sleep(500);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
